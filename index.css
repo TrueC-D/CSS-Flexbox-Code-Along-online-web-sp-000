@@ -25,6 +25,7 @@ footer {
   width: 100%;
 }
 .flex-container {
+  
   flex-direction: column;
   display: flex;
   width: 100vw;
@@ -36,4 +37,9 @@ footer {
   width: 100px;
   margin: 5px;
   background-color: #FCF2EC
+}
+
+.setWidth {
+  flex-basis: 100px;
+  flex-grow: 1;
 }
